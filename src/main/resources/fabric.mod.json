@@ -1,29 +1,28 @@
 {
   "schemaVersion": 1,
-  "id": "modid",
+  "id": "exposedplayernames",
   "version": "${version}",
 
-  "name": "Example Mod",
-  "description": "This is an example description! Tell everyone what your mod is about!",
+  "name": "ExposedPlayerNames",
+  "description": "This exposes all player names shown on the server menu",
   "authors": [
     "Me!"
   ],
   "contact": {
-    "homepage": "https://fabricmc.net/",
-    "sources": "https://github.com/FabricMC/fabric-example-mod"
+    "sources": "https://github.com/Lefted/ExposedPlayerNames"
   },
 
-  "license": "CC0-1.0",
-  "icon": "assets/modid/icon.png",
+  "license": "MIT",
+  "icon": "assets/exposedplayernames/icon.png",
 
   "environment": "*",
   "entrypoints": {
     "main": [
-      "net.fabricmc.example.ExampleMod"
+      "me.lefted.exposedplayernames.ExposedPlayerNames"
     ]
   },
   "mixins": [
-    "modid.mixins.json"
+    "exposedplayernames.mixins.json"
   ],
 
   "depends": {
